@@ -1,0 +1,43 @@
+
+
+
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>File Upload</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    </head>
+
+
+
+    <body >
+        <div class="row">
+            <h1>File input</h1>
+
+
+            <div class="col offset-s2 s8">
+                 <form enctype="multipart/form-data" action="visu.php" method="POST">
+                    <div class="file-field input-field">
+                    
+                      <div class="btn">
+                        <span>File</span>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="1048576">
+                         <input type="file" name="telechargement[]" multiple id="fileinput" accept=".jpg, .jpeg, .png, .gif">
+                      </div>
+                      <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                      </div>
+                    <div class="center-align">
+                    <input  class="btn waves-effect waves-light" type="submit" >
+                    </div>
+                  </form>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    </body>
+    </html>

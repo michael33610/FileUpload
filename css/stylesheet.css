@@ -1,0 +1,23 @@
+.ligTransOk1{
+	background-color:cyan;
+	/*margin:-20px 0 0 0;
+	padding: 20px 0 0 0;*/
+}
+
+.ligTransOk2{
+	background-color:yellow;
+	/*margin:-20px 0 0 0;
+	padding: 20px 0 0 0;*/
+}
+
+.ligTransKo{
+	background-color:red;
+	/*margin:-20px 0 0 0;
+	padding: 20px 0 0 0;*/
+}
+
+.images {
+	height: 250px; 
+	width: auto;
+	max-width: 250px;
+}
